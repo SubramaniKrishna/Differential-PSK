@@ -3,7 +3,7 @@ Hello!
 The flow of the algorithm is as follows : 
 1)Use Encode.py to encode the image and create a file dump as input to modulating gnuradio section
 example use: python Encode.py 'path to input image' 'path to start sequence' 'path to stop sequence'
-This will generate a file 'Input_Dump'.
+This will generate a file 'Input_Dump'.{You can use your own pilot sequences as Start and Stop Seqeuences, we have added ours here as an example}
 2)Use the dump file generated above as an input through the File Source block in gnu radio.
 3)The gnu radio code generates an output dump file via the File Sink block
 4)Use Decode.py to decode the file dump output of demodulating gnuradio radio section
